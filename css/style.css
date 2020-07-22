@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+
+.full-page{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,4,124,1) 1%, rgba(1,84,213,1) 50%, rgba(6,237,246,1) 100%);
+}
+.header{
+    color: #fff;
+}
+.upper-header{
+    display: flex;
+}
+.logo, .nav{
+    width: 40% !important;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.logo p{
+    font-size: 20px;
+}
+.header .nav .navbar-nav, .sign-up .navbar-nav{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.header .nav ul li {
+    margin-right: 10%;
+}
+.sign-up ul li{
+    margin-right: 2%;
+}
+.sign-up button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    margin: 2% 0 0 5%;
+    color: rgb(28, 6, 124);
+}
+.header .nav ul li a, .sign-up ul li a{
+    color: #fff;
+}
+.upper-header{
+    padding-top: 2% !important;
+}
+
+
+.header-body{
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin:4% 5% 0 0;
+}
+
+.header-title button{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    color: rgb(28, 6, 124);
+    border-radius: 50%;
+    border: none;
+    padding:0 10px;
+    margin-top: 7%;
+}
+.header-title p{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.header-body .image{
+    width: 50%;
+}
+.header-body .image img{
+    width: 90%;
+}
+.middle-part h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.sections{
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    padding: 0% !important;
+
+}
+.mid-section h5, p{
+    text-align: center;
+    margin-right: 10%;
+}
+#third-section img, #second-section img{
+    margin-left: 5% !important;
+}
+#third-section{
+    margin-top: 3.5% !important;
+}
+
+.second-midle{
+    background-color: rgb(233, 233, 230);
+}
+.second-midle .all-sections{
+    display: flex;
+}
+.all-sections img{
+    width: 550px;
+    margin-top: 8%;
+}
+.text{
+    margin-top: 15%;
+}
+.text h3, p{
+    text-align: left;
+}
+.text p br{
+    margin-top: 2%;
+}
+#second-sec img{
+    margin-right: 10%;
+}
